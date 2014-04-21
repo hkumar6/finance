@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage[scale=0.75]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\lstset{language=Matlab, breaklines=true}
+\renewcommand*{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\title{Financial Engineering II\\Lab Assignment 6}
+\author{Kumar Harsha, 11012318}
+\date{\today}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Time plot of Values}
+  \subsection*{BSE Sensex}
+  \begin{enumerate}
+    \item Daily data
+      \begin{center}
+        \includegraphics[width=3in]{sensexdaily.jpg}
+      \end{center}
+    \item Monthly data
+      \begin{center}
+        \includegraphics[width=3in]{sensexmonthly.jpg}
+      \end{center}
+  \end{enumerate}
+  
+  \subsection*{CNX Nifty}
+  \begin{enumerate}
+    \item Daily data
+      \begin{center}
+        \includegraphics[width=3in]{niftydaily.jpg}
+      \end{center}
+    \item Monthly data
+      \begin{center}
+        \includegraphics[width=3in]{niftymonthly.jpg}
+      \end{center}
+  \end{enumerate}
+
+\newpage
+\section{Histogram of Normalised returns}
+  \subsection*{BSE Sensex}
+  \begin{enumerate}
+    \item Daily data
+      \begin{center}
+        \includegraphics[width=3in]{sensexdailynr.jpg}
+      \end{center}
+    \item Monthly data
+      \begin{center}
+        \includegraphics[width=3in]{sensexmonthlynr.jpg}
+      \end{center}
+  \end{enumerate}
+
+  \subsection*{CNX Nifty}
+  \begin{enumerate}
+    \item Daily data
+      \begin{center}
+        \includegraphics[width=3in]{niftydailynr.jpg}
+      \end{center}
+    \item Monthly data
+      \begin{center}
+        \includegraphics[width=3in]{niftymonthlynr.jpg}
+      \end{center}
+  \end{enumerate}
+
+\newpage
+\section{Histogram of Log returns}
+  \subsection*{BSE Sensex}
+  \begin{enumerate}
+    \item Daily data
+      \begin{center}
+        \includegraphics[width=3in]{sensexdailylr.jpg}
+      \end{center}
+    \item Monthly data
+      \begin{center}
+        \includegraphics[width=3in]{sensexmonthlylr.jpg}
+      \end{center}
+  \end{enumerate}
+
+  \subsection*{CNX Nifty}
+  \begin{enumerate}
+    \item Daily data
+      \begin{center}
+        \includegraphics[width=3in]{niftydailylr.jpg}
+      \end{center}
+    \item Monthly data
+      \begin{center}
+        \includegraphics[width=3in]{niftymonthlylr.jpg}
+      \end{center}
+  \end{enumerate}
+
+\newpage
+\section{Code}
+  \lstinputlisting{analysemarketdata.m}
+
+
+
+\end{document}

@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Plot of volatility against period length}{2}
+\contentsline {section}{\numberline {2}Option prices against period length}{3}
+\contentsline {subsection}{\numberline {2.1}Call option prices}{3}
+\contentsline {subsection}{\numberline {2.2}Put option prices}{8}
+\contentsline {section}{\numberline {3}Code}{13}
+\contentsline {section}{\numberline {4}Function to compute Option price in BSM}{13}
+\contentsline {section}{\numberline {5}Driver program}{14}

@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+\usepackage[scale=0.75]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\lstset{language=Matlab, breaklines=true}
+\renewcommand*{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\title{Financial Engineering II\\Lab Assignment 4}
+\author{Kumar Harsha, 11012318}
+\date{\today}
+\maketitle
+\newpage
+
+\section{Question 1}
+  \subsection*{Markowitz Efficient Frontier}
+  \begin{center}
+    \includegraphics[width=5in]{markobullet.jpg}
+    \includegraphics[width=5in]{efficientfrontier.jpg}
+  \end{center}
+  
+  \subsection*{Portfolios on the Frontier}
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|c|}
+    Return &Risk &Asset 1 &Asset 2 &Asset 3 \\ \hline \hline
+    0.49 &0.78139 &-4.4624 &2.3376 &3.1248\\
+    0.46 &0.71803 &-4.033 &2.167 &2.8661\\
+    0.45 &0.69691 &-3.8899 &2.1101 &2.7798\\
+    0.42 &0.63356 &-3.4606 &1.9394 &2.5211\\
+    0.33 &0.44371 &-2.1725 &1.4275 &1.745\\
+    0.28 &0.33848 &-1.4569 &1.1431 &1.3138\\
+    0.17 &0.11053 &0.11743 &0.51743 &0.36514\\
+    0.37 &0.52804 &-2.745 &1.655 &2.0899\\
+    0.45 &0.69691 &-3.8899 &2.1101 &2.7798\\
+    0.22 &0.21288 &-0.59817 &0.80183 &0.79633\\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \subsection*{Portfolios for 15\% risk}
+  \begin{center}
+  \begin{tabular}{c|c|c|c|c|c|}
+    &Risk &Return &Asset 1 &Asset 2 &Asset 3 \\ \hline \hline
+  Portfolio 1 &0.14999   &0.052451    &1.7998   &-0.1512   &-0.6486 \\ \hline
+  Portfolio 2 &0.15001   &0.18956   &-0.1625    &0.6287    &0.5338 \\
+  \hline
+  \end{tabular}
+  \end{center}
+  
+  \subsection*{Minimum risk Portfolio for 18\% return}
+  \begin{center}
+  \begin{tabular}{c|c}
+    &Weights \\ \hline \hline
+  Asset 1   &-0.0257\\ \hline
+  Asset 2   &0.5743\\ \hline
+  Asset 3   &0.4514 \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  
+  \subsection*{Market Portfolio}
+  Assuming risk free return $\mu_{rf} = 10\%$
+  \begin{center}
+  \begin{tabular}{c|c}
+    &Weights \\ \hline \hline
+  Asset 1   &0.5938        \\ \hline
+  Asset 2   &0.3281\\ \hline
+  Asset 3   &0.0781 \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \subsection*{Capital Market Line}
+  \begin{center}
+    \includegraphics[width=5in]{capmarkline.jpg}
+  \end{center}
+
+\newpage
+\section{Code}
+  \lstinputlisting{lab4.m}
+
+
+
+\end{document}

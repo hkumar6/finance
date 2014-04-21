@@ -1,0 +1,178 @@
+\documentclass[12pt]{article}
+\usepackage[scale=0.75]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\lstset{language=Matlab, breaklines=true}
+\renewcommand*{\familydefault}{\sfdefault}
+
+\begin{document}
+
+\title{Financial Engineering II\\Lab Assignment 7}
+\author{Kumar Harsha, 11012318}
+\date{\today}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Code}
+  The following is a Matlab function to compute the prices of European call and put options at some time $t$ for $0 \leq t \leq T$ in the classical BSM framework.\\ \\
+  \lstinputlisting{bsmoptionprice.m}
+  
+\newpage
+\section{Plot of Call and Put option prices for different times}
+  Assumptions:\\
+  $T = 1, K = 1, r = 0.05, \sigma = 0.6$\\
+  \subsection*{2D plots against asset price}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-s.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-s.jpg}
+      \end{minipage}
+    \end{figure}
+
+  \subsection*{3D plots against asset price and time}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{callstem.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{putstem.jpg}
+      \end{minipage}
+    \end{figure}
+
+\newpage
+\section{Surface plots}
+  \subsection*{Call option}
+    \begin{center}
+      \includegraphics[width=4in]{callsurf.jpg}
+    \end{center}
+  \subsection*{Put option}
+    \begin{center}
+      \includegraphics[width=4in]{putsurf.jpg}
+    \end{center}
+
+\newpage
+\section{Sensitivity of Option prices to BSM parameters}
+  \subsection*{Time to maturity}
+    \subsubsection*{2D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-time.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-time.jpg}
+      \end{minipage}
+    \end{figure}
+
+    \subsubsection*{3D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-time-per.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-time-per.jpg}
+      \end{minipage}
+    \end{figure}
+
+  \newpage
+  \subsection*{Strike price}
+    \subsubsection*{2D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-strike.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-strike.jpg}
+      \end{minipage}
+    \end{figure}
+
+    \subsubsection*{3D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-time-strike.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-time-strike.jpg}
+      \end{minipage}
+    \end{figure}
+
+  \newpage
+  \subsection*{Risk-free rate}
+    \subsubsection*{2D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-rate.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-rate.jpg}
+      \end{minipage}
+    \end{figure}
+
+    \subsubsection*{3D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-time-rate.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-time-rate.jpg}
+      \end{minipage}
+    \end{figure}
+
+  \newpage
+  \subsection*{Volatility}
+    \subsubsection*{2D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-vol.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-vol.jpg}
+      \end{minipage}
+    \end{figure}
+
+    \subsubsection*{3D plot}
+    \begin{figure}[ht]
+    \centering
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{call-time-vol.jpg}
+      \end{minipage}
+      \begin{minipage}{.45\textwidth}
+        \centering
+        \includegraphics[width=3in]{put-time-vol.jpg}
+      \end{minipage}
+    \end{figure}
+
+\newpage
+\section{Driver code}
+  \lstinputlisting{lab7.m}
+\end{document}

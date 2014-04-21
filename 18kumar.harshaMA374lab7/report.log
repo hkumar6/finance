@@ -1,0 +1,519 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=pdflatex 2014.2.10)  20 FEB 2014 22:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nyn
+orsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbia
+nc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorb
+ian, welsh, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texmf/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/share/texmf/tex/latex/listings/listings.sty
+\lst@mode=\count91
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count92
+\lst@currlwidth=\dimen113
+\lst@column=\count93
+\lst@pos=\count94
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count95
+\lst@lineno=\count96
+\lst@maxwidth=\dimen116
+
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
+\lst@framebox=\box27
+)
+(/usr/share/texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(76.78688pt, 460.72124pt, 76.78688pt)
+* v-part:(T,H,B)=(79.49698pt, 596.22748pt, 119.24553pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=460.72124pt
+* \textheight=596.22748pt
+* \oddsidemargin=4.51689pt
+* \evensidemargin=4.51689pt
+* \topmargin=-29.77301pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen117
+\scratchbox=\box28
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen118
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count105
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+ (./report.toc)
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+(./bsmoptionprice.m
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 2.
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 11.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 11.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 11.
+
+) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+<call-s.jpg, id=16, 513.92pt x 385.44pt>
+File: call-s.jpg Graphic file (type jpg)
+ <use call-s.jpg>
+Package pdftex.def Info: call-s.jpg used on input line 30.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
+
+<put-s.jpg, id=17, 513.92pt x 385.44pt>
+File: put-s.jpg Graphic file (type jpg)
+ <use put-s.jpg>
+Package pdftex.def Info: put-s.jpg used on input line 34.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+<callstem.jpg, id=18, 513.92pt x 385.44pt>
+File: callstem.jpg Graphic file (type jpg)
+ <use callstem.jpg>
+Package pdftex.def Info: callstem.jpg used on input line 43.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+<putstem.jpg, id=19, 513.92pt x 385.44pt>
+File: putstem.jpg Graphic file (type jpg)
+ <use putstem.jpg>
+Package pdftex.def Info: putstem.jpg used on input line 47.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 47--48
+ [][] 
+ []
+
+[3 <./call-s.jpg> <./put-s.jpg> <./callstem.jpg> <./putstem.jpg>]
+<callsurf.jpg, id=23, 513.92pt x 385.44pt>
+File: callsurf.jpg Graphic file (type jpg)
+ <use callsurf.jpg>
+Package pdftex.def Info: callsurf.jpg used on input line 55.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+
+<putsurf.jpg, id=24, 513.92pt x 385.44pt>
+File: putsurf.jpg Graphic file (type jpg)
+ <use putsurf.jpg>
+Package pdftex.def Info: putsurf.jpg used on input line 59.
+(pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
+ [4 <./callsurf.jpg> <./putsurf.jpg>] <call-time.jpg, id=28, 513.92pt x 385.44p
+t>
+File: call-time.jpg Graphic file (type jpg)
+
+<use call-time.jpg>
+Package pdftex.def Info: call-time.jpg used on input line 70.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+<put-time.jpg, id=29, 513.92pt x 385.44pt>
+File: put-time.jpg Graphic file (type jpg)
+ <use put-time.jpg>
+Package pdftex.def Info: put-time.jpg used on input line 74.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+<call-time-per.jpg, id=30, 513.92pt x 385.44pt>
+File: call-time-per.jpg Graphic file (type jpg)
+ <use call-time-per.jpg>
+Package pdftex.def Info: call-time-per.jpg used on input line 83.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 83--84
+ [][] 
+ []
+
+<put-time-per.jpg, id=31, 513.92pt x 385.44pt>
+File: put-time-per.jpg Graphic file (type jpg)
+ <use put-time-per.jpg>
+Package pdftex.def Info: put-time-per.jpg used on input line 87.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 87--88
+ [][] 
+ []
+
+[5 <./call-time.jpg> <./put-time.jpg> <./call-time-per.jpg> <./put-time-per.jpg
+>] <call-strike.jpg, id=35, 513.92pt x 385.44pt>
+File: call-strike.jpg Graphic file (type jpg)
+ <use call-strike.jpg>
+Package pdftex.def Info: call-strike.jpg used on input line 98.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 98--99
+ [][] 
+ []
+
+<put-strike.jpg, id=36, 513.92pt x 385.44pt>
+File: put-strike.jpg Graphic file (type jpg)
+ <use put-strike.jpg>
+Package pdftex.def Info: put-strike.jpg used on input line 102.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 102--103
+ [][] 
+ []
+
+<call-time-strike.jpg, id=37, 513.92pt x 385.44pt>
+File: call-time-strike.jpg Graphic file (type jpg)
+ <use call-time-strike.jpg>
+Package pdftex.def Info: call-time-strike.jpg used on input line 111.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 111--112
+ [][] 
+ []
+
+<put-time-strike.jpg, id=38, 513.92pt x 385.44pt>
+File: put-time-strike.jpg Graphic file (type jpg)
+ <use put-time-strike.jpg>
+Package pdftex.def Info: put-time-strike.jpg used on input line 115.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+[6 <./call-strike.jpg> <./put-strike.jpg> <./call-time-strike.jpg> <./put-time-
+strike.jpg>] <call-rate.jpg, id=42, 513.92pt x 385.44pt>
+File: call-rate.jpg Graphic file (type jpg)
+ <use call-rate.jpg>
+Package pdftex.def Info: call-rate.jpg used on input line 126.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 126--127
+ [][] 
+ []
+
+<put-rate.jpg, id=43, 513.92pt x 385.44pt>
+File: put-rate.jpg Graphic file (type jpg)
+ <use put-rate.jpg>
+Package pdftex.def Info: put-rate.jpg used on input line 130.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+<call-time-rate.jpg, id=44, 513.92pt x 385.44pt>
+File: call-time-rate.jpg Graphic file (type jpg)
+ <use call-time-rate.jpg>
+Package pdftex.def Info: call-time-rate.jpg used on input line 139.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+<put-time-rate.jpg, id=45, 513.92pt x 385.44pt>
+File: put-time-rate.jpg Graphic file (type jpg)
+ <use put-time-rate.jpg>
+Package pdftex.def Info: put-time-rate.jpg used on input line 143.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+[7 <./call-rate.jpg> <./put-rate.jpg> <./call-time-rate.jpg> <./put-time-rate.j
+pg>] <call-vol.jpg, id=50, 513.92pt x 385.44pt>
+File: call-vol.jpg Graphic file (type jpg)
+ <use call-vol.jpg>
+Package pdftex.def Info: call-vol.jpg used on input line 154.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
+<put-vol.jpg, id=51, 513.92pt x 385.44pt>
+File: put-vol.jpg Graphic file (type jpg)
+ <use put-vol.jpg>
+Package pdftex.def Info: put-vol.jpg used on input line 158.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 158--159
+ [][] 
+ []
+
+<call-time-vol.jpg, id=52, 513.92pt x 385.44pt>
+File: call-time-vol.jpg Graphic file (type jpg)
+ <use call-time-vol.jpg>
+Package pdftex.def Info: call-time-vol.jpg used on input line 167.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+<put-time-vol.jpg, id=53, 513.92pt x 385.44pt>
+File: put-time-vol.jpg Graphic file (type jpg)
+ <use put-time-vol.jpg>
+Package pdftex.def Info: put-time-vol.jpg used on input line 171.
+(pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+
+Overfull \hbox (9.48685pt too wide) in paragraph at lines 171--172
+ [][] 
+ []
+
+[8 <./call-vol.jpg> <./put-vol.jpg> <./call-time-vol.jpg> <./put-time-vol.jpg>]
+(./lab7.m [9] [10] [11] [12] [13] [14]) [15] (./report.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3930 strings out of 493607
+ 54590 string characters out of 3149945
+ 228412 words of memory out of 3500000
+ 7190 multiletter control sequences out of 15000+200000
+ 9756 words of font info for 34 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 38i,7n,40p,239b,1628s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmss12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmss17.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/t
+exmf/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (15 pages, 729775 bytes).
+PDF statistics:
+ 103 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+
